@@ -13,7 +13,7 @@ const functions = {
     axios
       .get('https://jsonplaceholder.typicode.com/users/1')
       .then(response => response.data)
-      .catch(error => error.response.data)
+      .catch(error => "error")
 }
 
 
